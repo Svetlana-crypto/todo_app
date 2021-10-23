@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: url("https://kartinkin.com/uploads/posts/2021-07/1626986443_25-kartinkin-com-p-staraya-kirpichnaya-stena-tekstura-besshov-31.jpg");
+}
+.todo-container{
+    width: 400px;
+    height: 500px;
+    background-color: #c18479;
+    border-radius: 6px;
+    padding: 20px ;
+}
+
+.add-input{
+    width: 70%;
+}
+.todo-name.done{
+    color: #6f42c1;
+    text-decoration: line-through;
+}
+.todo-name.star{
+    color: red;
+}
+.starBtn.active{
+    color: #ffffff;
+    background: yellow;
+    border-color: yellow;
+}
+.doneBtn.active{
+    color: #ffffff;
+    background: green;
+    border-color: green;
+}
+
+
+
+
+
+
+
+
